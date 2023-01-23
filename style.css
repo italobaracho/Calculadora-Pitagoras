@@ -1,23 +1,37 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background: linear-gradient(45deg, rgb(13, 0, 255)
+    0%, rgb(192, 50, 25) 33%, rgb(240, 255, 229) 100%);
 }
 
 form {
-  margin: 20px auto;
-  width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 530px;
+    width: 414px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 label {
   font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
+  display: absolute;
+  margin: auto;
+  width: 300px;
+  height: 80px;
+  
 }
 
 input {
   padding: 5px;
-  width: 100%;
-  margin-bottom: 10px;
+  width: 380px;
+  margin-bottom: 1px;
+  height: 20px;
+  margin-bottom: 10% ;
 }
 
 button {
@@ -26,4 +40,8 @@ button {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+}
+
+.altura {
+  margin-top: 70px;
 }
